@@ -29,9 +29,6 @@ Created and maintained with ❤️ by [Krathish]
     * [npm run build fails to minify](#npm-run-build-fails-to-minify)
   * [Google Analytics Setup](#google-analytics-setup)
 * [Credits](#credits)
-* [Terms and License](#terms-and-license)
-* [About Us](#about-us)
-* [Stay in the loop](#stay-in-the-loop)
 
 ## Usage
 
