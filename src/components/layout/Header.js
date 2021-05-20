@@ -2,7 +2,6 @@ import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
-import Logo from './partials/Logo';
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -85,7 +84,7 @@ const Header = ({
             'site-header-inner',
             bottomDivider && 'has-bottom-divider'
           )}>
-          <Logo />
+          <h5>Pray for Palestine</h5>
           {!hideNav &&
             <>
               <button
@@ -112,7 +111,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="https://github.com/krathish/Website-for-Free-Palestine-Movement" onClick={closeMenu}>View on GitHub</Link>
+                      <a href="https://github.com/krathish/Website-for-Free-Palestine-Movement">View on GitHub</a>
                     </li>
                   </ul>
                   {!hideSignin &&
