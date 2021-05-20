@@ -65,7 +65,7 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Palestine has been fighting for it's rights since 1948, and now more than ever before - they need our help.
+                Martin Luther King Jr once said “Injustice anywhere is a threat to justice everywhere.” - Palestine has been fighting for it's rights since 1948, and now more than ever before - they need our help.
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
