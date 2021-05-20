@@ -8,8 +8,6 @@ This fight isn't for any one caste, creed, religion or country, it's about fight
 
 Pray for Palestine <3
 
-Live Demo: https://website-for-free-palestine-movement-mv1tyq19i-krathish.vercel.app/
-
 Created and maintained with ❤️ by [Krathish]
 
 ## Table of contents
@@ -28,7 +26,7 @@ Created and maintained with ❤️ by [Krathish]
     * [Deployment](#deployment)
     * [npm run build fails to minify](#npm-run-build-fails-to-minify)
   * [Google Analytics Setup](#google-analytics-setup)
-* [Credits](#credits)
+
 
 ## Usage
 
