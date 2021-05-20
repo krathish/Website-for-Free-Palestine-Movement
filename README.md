@@ -1,22 +1,14 @@
-# Free React landing page template
+# Free Palestine
 
-![Open React template preview](https://user-images.githubusercontent.com/2683512/78789364-545e7100-79ad-11ea-9e3c-9528c99cda8e.png)
+Palestine has been fighting for it's rights since 1948, and now more than ever before - they need our help. This website serves a relay point of various articles and a donation link to the Palestine Children Relief Fund.
 
-**Open** is a **free React landing page template designed** for developers/makers who want to create a quick and professional landing page for their open source projects, SaaS products, online services, and more.
+Martin Lutherking Jr once said “Injustice anywhere is a threat to justice everywhere.” We are caught in an inescapable network of mutuality, tied in a single garment of destiny. Whatever affects one directly, affects all indirectly.
 
-Use it for whatever you want, and be sure to reach us out on [Twitter](https://twitter.com/Cruip_com) if you build anything cool/useful with it.
+This fight isn't for any one caste, creed, religion or country, it's about fighting for the basic human rights of Palestine.
 
-Created and maintained with ❤️ by [Cruip.com](https://cruip.com).
+Pray for Palestine <3
 
-## Live demo
-
-Check the live demo here 👉️ [https://open.cruip.com/](https://open.cruip.com/)
-
-## Open PRO
-
-Looking for more pages and components? Have a look at the **premium version** here 👉️ [https://cruip.com/demos/open-pro/](https://cruip.com/demos/open-pro/)
-
-*The premium template is built on-the-top of [Tailwind CSS](https://tailwindcss.com/), and React components have been re-built from scratch.* 
+Created and maintained with ❤️ by [Krathish]
 
 ## Table of contents
 
