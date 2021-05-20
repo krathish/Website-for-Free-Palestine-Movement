@@ -112,7 +112,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>View on GitHub</Link>
+                      <Link to="https://github.com/krathish/Website-for-Free-Palestine-Movement" onClick={closeMenu}>View on GitHub</Link>
                     </li>
                   </ul>
                   {!hideSignin &&
