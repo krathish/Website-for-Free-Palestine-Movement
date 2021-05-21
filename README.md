@@ -6,9 +6,7 @@ Martin Luther King Jr once said “Injustice anywhere is a threat to justice eve
 
 This fight isn't for any one caste, creed, religion or country, it's about fighting for the basic human rights of Palestine.
 
-Pray for Palestine <3
-
-Created and maintained with ❤️ by [Krathish]
+Pray for Palestine ❤️
 
 ## Table of contents
 
