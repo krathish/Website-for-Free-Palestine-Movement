@@ -8,7 +8,7 @@ This fight isn't for any one caste, creed, religion or country, it's about fight
 
 Pray for Palestine ❤️
 
-## Table of contents
+# Table of contents
 
 * [Usage](#usage)
   * [Available Scripts](#available-scripts)
