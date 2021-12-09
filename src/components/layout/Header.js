@@ -1,137 +1,58 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { Link } from 'react-router-dom';
+import FooterNav from './partials/FooterNav';
+import FooterSocial from './partials/FooterSocial';
 
 const propTypes = {
-  navPosition: PropTypes.string,
-  hideNav: PropTypes.bool,
-  hideSignin: PropTypes.bool,
-  bottomOuterDivider: PropTypes.bool,
-  bottomDivider: PropTypes.bool
+  topOuterDivider: PropTypes.bool,
+  topDivider: PropTypes.bool
 }
 
 const defaultProps = {
-  navPosition: '',
-  hideNav: false,
-  hideSignin: false,
-  bottomOuterDivider: false,
-  bottomDivider: false
+  topOuterDivider: false,
+  topDivider: false
 }
 
-const Header = ({
+const Footer = ({
   className,
-  navPosition,
-  hideNav,
-  hideSignin,
-  bottomOuterDivider,
-  bottomDivider,
+  topOuterDivider,
+  topDivider,
   ...props
 }) => {
 
-  const [isActive, setIsactive] = useState(false);
-
-  const nav = useRef(null);
-  const hamburger = useRef(null);
-
-  useEffect(() => {
-    isActive && openMenu();
-    document.addEventListener('keydown', keyPress);
-    document.addEventListener('click', clickOutside);
-    return () => {
-      document.removeEventListener('keydown', keyPress);
-      document.removeEventListener('click', clickOutside);
-      closeMenu();
-    };
-  });  
-
-  const openMenu = () => {
-    document.body.classList.add('off-nav-is-active');
-    nav.current.style.maxHeight = nav.current.scrollHeight + 'px';
-    setIsactive(true);
-  }
-
-  const closeMenu = () => {
-    document.body.classList.remove('off-nav-is-active');
-    nav.current && (nav.current.style.maxHeight = null);
-    setIsactive(false);
-  }
-
-  const keyPress = (e) => {
-    isActive && e.keyCode === 27 && closeMenu();
-  }
-
-  const clickOutside = (e) => {
-    if (!nav.current) return
-    if (!isActive || nav.current.contains(e.target) || e.target === hamburger.current) return;
-    closeMenu();
-  }  
-
   const classes = classNames(
-    'site-header',
-    bottomOuterDivider && 'has-bottom-divider',
+    'site-footer center-content-mobile',
+    topOuterDivider && 'has-top-divider',
     className
   );
 
   return (
-    <header
+    <footer
       {...props}
       className={classes}
     >
       <div className="container">
         <div className={
           classNames(
-            'site-header-inner',
-            bottomDivider && 'has-bottom-divider'
+            'site-footer-inner',
+            topDivider && 'has-top-divider'
           )}>
-          <h5>Tails N' Roses</h5>
-          {!hideNav &&
-            <>
-              <button
-                ref={hamburger}
-                className="header-nav-toggle"
-                onClick={isActive ? closeMenu : openMenu}
-              >
-                <span className="screen-reader">Menu</span>
-                <span className="hamburger">
-                  <span className="hamburger-inner"></span>
-                </span>
-              </button>
-              <nav
-                ref={nav}
-                className={
-                  classNames(
-                    'header-nav',
-                    isActive && 'is-active'
-                  )}>
-                <div className="header-nav-inner">
-                  <ul className={
-                    classNames(
-                      'list-reset text-xs',
-                      navPosition && `header-nav-${navPosition}`
-                    )}>
-                    <li>
-                      <a href="https://github.com/krathish/Website-for-Free-Palestine-Movement">View on GitHub</a>
-                    </li>
-                  </ul>
-                  {!hideSignin &&
-                    <ul
-                      className="list-reset header-nav-right"
-                    >
-                      <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
-                      </li>
-                    </ul>}
-                </div>
-              </nav>
-            </>}
+          <div className="footer-top space-between text-xxs">
+          <h5>Tails N Roses</h5>
+            <FooterSocial />
+          </div>
+          <div className="footer-bottom space-between text-xxs invert-order-desktop">
+            <FooterNav />
+            <div className="footer-copyright">Made by <a href="https://google.com">Puja - Daniel - Bhumika - Krathish</a>. All rights reserved</div>
+          </div>
         </div>
       </div>
-    </header>
+    </footer>
   );
 }
 
-Header.propTypes = propTypes;
-Header.defaultProps = defaultProps;
+Footer.propTypes = propTypes;
+Footer.defaultProps = defaultProps;
 
-export default Header;
+export default Footer;
