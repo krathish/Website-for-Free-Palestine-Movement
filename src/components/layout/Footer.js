@@ -39,12 +39,12 @@ const Footer = ({
             topDivider && 'has-top-divider'
           )}>
           <div className="footer-top space-between text-xxs">
-          <h5>Pray for Palestine</h5>
+          <h5>Tails N Roses</h5>
             <FooterSocial />
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <FooterNav />
-            <div className="footer-copyright">Made by <a href="https://google.com">Krathish & Parshwa</a>. All rights reserved</div>
+            <div className="footer-copyright">Made by <a href="https://google.com">Puja - Daniel - Bhumika - Krathish</a>. All rights reserved</div>
           </div>
         </div>
       </div>
