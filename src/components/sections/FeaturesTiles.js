@@ -43,9 +43,9 @@ const FeaturesTiles = ({
 	);
 
 	const sectionHeader = {
-		title: "Israel has illegally occupied Palestine since 1948",
-		paragraph: "The Israeli-Palestinian conflict is one of the world’s longest-running and most controversial conflicts. Our hope with this website is to create a information and donations relay point to help out in the best way we can.",
-	  subheading: "Here's how you can help"
+		title: "#AdoptLove",
+		paragraph: "Approximately 1478 dogs & cats die every day on road in India. Tails N' Roses is on a mission to provide every dog and cat a home before 2035.",
+	  subheading: "Here's how you can adopt!"
   };
 
 	return (
@@ -67,9 +67,9 @@ const FeaturesTiles = ({
 									</div>
 								</div>
 								<div className="features-tiles-item-content">
-									<h4 className="mt-0 mb-8">Become an advocate</h4>
+									<h4 className="mt-0 mb-8">Why adopt?</h4>
 									<p className="m-0 text-sm">
-                  Start taking any possible action in your communities to increase awareness and raise funds to help bring about peace and justice in Palestine.
+									Did you know that over 2000 people per hour in India run a search right here looking to adopt a pet? Pet adoption is becoming the preferred way to find a new pet. 
 									</p>
 								</div>
 							</div>
@@ -91,9 +91,12 @@ const FeaturesTiles = ({
 									</div>
 								</div>
 								<div className="features-tiles-item-content">
-									<h4 className="mt-0 mb-8">Donate</h4>
+									<h4 className="mt-0 mb-8">Re-Home</h4>
 									<p className="m-0 text-sm">
-                  As the crisis mounts, charities have launched appeals to help the victims of the conflict with emergency medical treatment, food and shelter
+									
+
+Hundreds of pets are abandoned and rescued in India everyday. Although there are many wonderful souls across the nation who work extra hours and put in efforts beyond their capacity, there is always a shortage of funding and communication across the animal activist circuit.
+Every Pet Deserves a Good Home. #Adoptlove
 									</p>
 								</div>
 							</div>
