@@ -84,7 +84,7 @@ const Header = ({
             'site-header-inner',
             bottomDivider && 'has-bottom-divider'
           )}>
-          <h5>Pray for Palestine</h5>
+          <h5>Tails N' Roses</h5>
           {!hideNav &&
             <>
               <button
