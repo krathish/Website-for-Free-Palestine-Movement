@@ -61,16 +61,16 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              This is about human rights.<div className="text-color-primary">Free Palestine</div>
+            Tails N' Roses<div className="text-color-primary">Treat your pet right.</div>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Martin Luther King Jr once said “Injustice anywhere is a threat to justice everywhere.” - Palestine has been fighting for it's rights since 1948, and now more than ever before - they need our help.
-                </p>
+               For every dog you adopt from Tails N' Roses we plant a rose.
+               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://pcrf1.z2systems.com/np/clients/pcrf1/donation.jsp?campaign=342&">
-                    Donate
+                  <Button tag="a" color="primary" wideMobile href="https://docs.google.com/forms/d/1s4IOxvxgzPyQI7nomKTzymh4GkCHC-nYjDVDtZCYlwo/edit">
+                    Book appointment
                     </Button>
                   <Button tag="a" color="dark" wideMobile href="https://www.vox.com/2018/11/20/18079996/israel-palestine-conflict-guide-explainer">
                     Know more
@@ -88,7 +88,7 @@ const Hero = ({
             >
               <Image
                 className="has-shadow"
-                src={require("./../../assets/images/tile1.webp")}
+                src={require("./../../assets/images/tile11.avif")}
                 alt="Hero"
                 width={896}
                 height={504} />
