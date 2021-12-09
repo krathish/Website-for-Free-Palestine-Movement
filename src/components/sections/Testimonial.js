@@ -44,8 +44,8 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: 'What is the rest of the world doing?',
-    paragraph: 'The response has been certainly not enough, but world leaders are mobilizing forces against Israel'
+    title: 'What do our regulars say?',
+    paragraph: 'Here are a few testimonials from a few happy customers :)'
   };
 
   return (
@@ -62,14 +62,14 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    —Even those countries that normalized relations with Israel last year — the United Arab Emirates, Bahrain, Sudan and Morocco — have all openly criticized Israeli policies and called for support of the Palestinians and the defense of Jerusalem.
+                    I haven't seen Ginger this healthy and in shape ever, She somehow looks forward to every TNR visit.
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Steven Erlanger</span>
+                  <span className="testimonial-item-name text-color-high">Daniel Thomas</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="https://www.nytimes.com/2021/05/14/world/middleeast/israel-arab.html">The NY Times</a>
+                    <a href="https://www.nytimes.com/2021/05/14/world/middleeast/israel-arab.html">Owner of Ginger</a>
                   </span>
                 </div>
               </div>
@@ -79,14 +79,14 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Bella Hadid and Viola Davis are among stars being praised for posting in solidarity with Palestinians, while Rihanna and Gal Gadot drew ire over statements
+                    I wanted a dog for my birthday, so my parents got simba from TNR. The whole experience was so smooth. Thorough professionals.
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Mia Bush</span>
+                  <span className="testimonial-item-name text-color-high">Puja Chand</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="https://www.voanews.com/middle-east/world-leaders-react-growing-crisis-between-israel-hamas">VOA news</a>
+                    <a href="https://www.voanews.com/middle-east/world-leaders-react-growing-crisis-between-israel-hamas">Owner of Simba</a>
                   </span>
                 </div>
               </div>
@@ -96,14 +96,14 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — So far, The UN has only issued strongly worded letters, becuase china and russia are veto-ing any idea that goes against Israel due to their good relations.
+                    The website India needed all along, I got Baddie from TNR. He's simply the best, he loves my music too(somewhat)!
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Mehdi Hassan</span>
+                  <span className="testimonial-item-name text-color-high">Badboy Badshah</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="https://www.aljazeera.com/news/2021/5/15/world-reacts-as-violence-in-gaza-escalates">Al Jazeera</a>
+                    <a href="https://www.aljazeera.com/news/2021/5/15/world-reacts-as-violence-in-gaza-escalates">Owner of Baddie</a>
                   </span>
                 </div>
               </div>
