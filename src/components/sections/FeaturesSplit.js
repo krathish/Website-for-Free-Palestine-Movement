@@ -49,9 +49,9 @@ const FeaturesSplit = ({
 	);
 
 	const sectionHeader = {
-		title: "Timeline of events",
+		title: "Ways we help",
 		paragraph:
-			"This is a recap of the escalating violence since heavy exchanges of fire began on May 10.",
+			"We offer multiple stores and services.",
 	};
 
 	return (
@@ -66,14 +66,11 @@ const FeaturesSplit = ({
 								data-reveal-container=".split-item"
 							>
 								<div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-									May 10, 2021
+									Health
 								</div>
-								<h3 className="mt-0 mb-12">Gaza Attacks</h3>
+								<h3 className="mt-0 mb-12">TNR Pharmacy</h3>
 								<p className="m-0">
-									Gaza's Islamist rulers Hamas launch volleys of rockets towards
-									Israel in "solidarity" with Palestinians in annexed east
-									Jerusalem. Israel responds with deadly strikes on the
-									Palestinian enclave.
+								We know pet owners want an affordable, convenient way to buy pet medications. But none of the online pharmacies met our standards for quality and for honoring the foundation of the veterinary profession: the doctor-client-patient relationship.
 								</p>
 							</div>
 							<div
@@ -84,7 +81,7 @@ const FeaturesSplit = ({
 								data-reveal-container=".split-item"
 							>
 								<Image
-									src={require("./../../assets/images/tile1.webp")}
+									src={require("./../../assets/images/tile1.jpeg")}
 									alt="Features split 01"
 									width={528}
 									height={396}
@@ -98,14 +95,11 @@ const FeaturesSplit = ({
 								data-reveal-container=".split-item"
 							>
 								<div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-									May 11-12, 2021
+									Adoption
 								</div>
-								<h3 className="mt-0 mb-12">Air strike and it's retaliation</h3>
+								<h3 className="mt-0 mb-12">Search for a pet.</h3>
 								<p className="m-0">
-									Hamas rains rockets down on Tel Aviv after an Israeli air
-									strike destroys a Gaza City tower block where senior Hamas
-									officials are said to have offices. State of emergency is
-									declared in Lod near Tel Aviv
+								Did you know that most dogs do not have a home due to no fault of their own? It is a common myth to think that all dogs up for adoption in shelters and rescues are damaged in some way. But, nothing could be less true! Dog shelters and rescues are full of lovable, active and healthy adoptable dogs just waiting for someone to take them home.
 								</p>
 							</div>
 							<div
@@ -116,7 +110,7 @@ const FeaturesSplit = ({
 								data-reveal-container=".split-item"
 							>
 								<Image
-									src={require("./../../assets/images/tile2.webp")}
+									src={require("./../../assets/images/tile2.jpeg")}
 									alt="Features split 02"
 									width={528}
 									height={396}
@@ -130,16 +124,11 @@ const FeaturesSplit = ({
 								data-reveal-container=".split-item"
 							>
 								<div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-									uptil May 19th
+									Care
 								</div>
-								<h3 className="mt-0 mb-12">Death toll</h3>
+								<h3 className="mt-0 mb-12">Vet</h3>
 								<p className="m-0">
-									With no sign of a let up, at least 212 Palestinians in the
-									crowded coastal enclave of Gaza have so far been killed,
-									including 61 children. More than 1,300 have been injured.
-									Israel's army says over 3,220 rockets have now been fired from
-									Gaza, killing 10 people, including one child, and injuring
-									almost 300.
+								You and your veterinarian make up the all-star team when it comes to keeping your pet healthy. But you're not just a Most Valuable Player on the team, you've got an opportunity to be a MPVO – Most Valuable Pet Owner. 
 								</p>
 							</div>
 							<div
@@ -150,7 +139,7 @@ const FeaturesSplit = ({
 								data-reveal-container=".split-item"
 							>
 								<Image
-									src={require("./../../assets/images/tile3.webp")}
+									src={require("./../../assets/images/tile3.jpeg")}
 									alt="Features split 03"
 									width={528}
 									height={396}
